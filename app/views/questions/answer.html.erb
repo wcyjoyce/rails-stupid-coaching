@@ -1,0 +1,13 @@
+<div class="wrapper">
+  <div class="blockquote">
+    <p><%= @category %></p>
+    <h2>– You</h2>
+  </div>
+
+  <div class="blockquote">
+    <p><%= @answer %></p>
+    <h2>– Coach</h2>
+  </div>
+
+  <%= link_to "Ask Another Question!", ask_path, class: "btn btn-success btn-block link" %>
+</div>
